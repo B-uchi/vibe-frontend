@@ -18,7 +18,7 @@ const HeroSection = () => {
             </h1>
             <p className="mt-4 font-poppins text-center lg:text-left">
               Discover new connections, share your passions, and immerse
-              yourself in engaging conversations. Whether you're looking to make
+              yourself in engaging conversations. Whether you&apos;re looking to make
               new friends, find like-minded individuals, or just have a good
               time, Vibe is the place where your conversations come to life.
               Join us and experience the joy of genuine, vibrant interactions.
