@@ -4,6 +4,7 @@ import messageLine from "../public/message-line.png";
 import Image from "next/image";
 
 
+
 const HeroSection = () => {
 
   return (
@@ -35,7 +36,7 @@ const HeroSection = () => {
               alt="Hero Image"
               objectFit="cover"
               quality={100}
-              className="mx-auto lg:mr-[100px] z-30 relative lg:w-[50%] w-64 -mr-5 bounce"
+              className="mx-auto lg:mr-[100px] z-20 relative lg:w-[50%] w-64 -mr-5 bounce"
             />
             <Image
               src={messageLine}
