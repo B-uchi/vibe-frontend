@@ -6,6 +6,7 @@ interface fontFamilyInterface {
 }
 const fontFamily: fontFamilyInterface = {
   rowdies: ['Rowdies', 'sans-serif'],
+  poppins: ['Poppins', 'sans-serif'],
 };
 
 const config: Config = {
