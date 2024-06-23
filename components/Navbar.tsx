@@ -1,12 +1,13 @@
 import { useEffect, useState } from "react";
 import MenuItem from "./MenuItem";
+import Link from "next/link";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
 
   const handleScroll = () => {
     const scrollTop = window.scrollY;
-    if (scrollTop > window.innerHeight-20) {
+    if (scrollTop > window.innerHeight - 20) {
       setIsScrolled(true);
     } else {
       setIsScrolled(false);
@@ -35,14 +36,20 @@ const Navbar = () => {
           </div>
           <div className="">
             <ul className=" space-x-6 hidden md:flex">
-              <li className="text-white font-poppins cursor-pointer">
-                <MenuItem text="Home" />
-              </li>
-              <li className="text-white font-poppins cursor-pointer">
-                <MenuItem text="About" />
+              <li>
+                <Link href="/#home">
+                  <MenuItem text="Home" />
+                </Link>
               </li>
               <li>
-                <MenuItem text="Contact" />
+                <Link href="/#features">
+                  <MenuItem text="About" />
+                </Link>
+              </li>
+              <li>
+                <Link href="/#contact">
+                  <MenuItem text="Contact" />
+                </Link>
               </li>
             </ul>
           </div>
