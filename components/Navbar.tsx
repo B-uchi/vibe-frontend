@@ -34,7 +34,7 @@ const Navbar = () => {
       }`}
     >
       {showSideMennu && (
-        <div className="absolute h-screen bg-[#444444] text-white w-[75%] z-50 border-r-[1px] border-r-[#353535] p-5 flex flex-col justify-between">
+        <div className="absolute h-[100vh] bg-[#444444] text-white w-[75%] z-50 border-r-[1px] border-r-[#353535] p-5 flex flex-col justify-between">
           <div className="flex justify-between items-center">
             <div className="">
               <h1 className="text-2xl -mb-2 font-rowdies font-extrabold">
@@ -51,23 +51,23 @@ const Navbar = () => {
           <div className="">
             <ul className="flex flex-col">
               <li className="border-b-[1px] border-b-[#313131] py-3">
-                <Link href="/#home">
+                <Link href="/#home" onClick={()=>{setSHowSideMenu(false)}}>
                   <MenuItem text="Home" bold={true}/>
                 </Link>
               </li>
               <li className="border-b-[1px] border-b-[#313131] py-3">
-                <Link href="/#features">
+                <Link href="/#features" onClick={()=>{setSHowSideMenu(false)}}>
                   <MenuItem text="About" bold={true}/>
                 </Link>
               </li>
               <li className="py-3">
-                <Link href="/#contact">
+                <Link href="/#contact" onClick={()=>{setSHowSideMenu(false)}}>
                   <MenuItem text="Contact" bold={true}/>
                 </Link>
               </li>
             </ul>
           </div>
-          <div className="">
+          <div className="mb-5">
             <small className="font-rowdies">&copy; Vibe 2024.</small>
           </div>
         </div>
