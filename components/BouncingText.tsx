@@ -41,7 +41,7 @@ const BouncingText: React.FC = () => {
   }, []);
 
   return (
-    <div ref={textRef} className="flex justify-center space-x-5 text-gray-100 text-6xl font-bold">
+    <div ref={textRef} className="flex justify-center space-x-5 text-gray-200 text-6xl font-bold">
       {'Catch - a - Vibe'.split('').map((char, index) => (
         <span key={index} className="char font-rowdies inline-block">
           {char}
