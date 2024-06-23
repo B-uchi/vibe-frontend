@@ -6,6 +6,7 @@ import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import Head from "next/head";
 import FAQ from "@/components/FAQ";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Acme Dashboard",
@@ -87,6 +88,7 @@ export default function Home() {
       <HeroSection />
       <CallToAction />
       <FAQ/>
+      <Footer/>
     </main>
   );
 }
