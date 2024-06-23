@@ -7,7 +7,7 @@ import Image from "next/image";
 const HeroSection = () => {
 
   return (
-    <div className="relative w-full h-screen overflow-hidden">
+    <section id="home" className="relative w-full h-screen overflow-hidden">
       
       <div className="h-[100vh] w-full relative text-white flex justify-center items-center">
         <div className="dotted-overlay"></div>
@@ -47,7 +47,7 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

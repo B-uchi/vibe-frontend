@@ -7,6 +7,7 @@ import gsap from "gsap";
 import Head from "next/head";
 import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
+import Contact from "@/components/Contact";
 
 export const metadata: Metadata = {
   title: "Acme Dashboard",
@@ -19,7 +20,7 @@ export default function Home() {
   const lettersRef = useRef<HTMLDivElement[]>([]);
 
   useEffect(() => {
-    scrollTo(0,0)
+    scrollTo(0, 0);
     const timeline = gsap.timeline();
 
     // Animate each letter with a drop effect
@@ -39,7 +40,7 @@ export default function Home() {
     timeline.to(animationLayerRef.current, {
       borderBottomLeftRadius: "50%",
       borderBottomRightRadius: "50%",
-      
+
       opacity: 0.9,
       duration: 1.5,
       ease: "power2.inOut",
@@ -87,8 +88,9 @@ export default function Home() {
       <Navbar />
       <HeroSection />
       <CallToAction />
-      <FAQ/>
-      <Footer/>
+      <FAQ />
+      <Contact />
+      <Footer />
     </main>
   );
 }
