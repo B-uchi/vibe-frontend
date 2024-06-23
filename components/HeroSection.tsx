@@ -23,8 +23,8 @@ const HeroSection = () => {
               time, Vibe is the place where your conversations come to life.
               Join us and experience the joy of genuine, vibrant interactions.
             </p>
-            <div className="mt-5">
-              <button className="w-full font-bold font-poppins py-3 px-3 bg-white rounded-md text-gray-800 ">
+            <div className="mt-5 lg:block flex">
+              <button className="w-[50%] mx-auto lg:w-full font-bold font-poppins py-3 px-3 bg-white rounded-md text-gray-800 ">
                 Get Started
               </button>
             </div>
@@ -35,7 +35,7 @@ const HeroSection = () => {
               alt="Hero Image"
               objectFit="cover"
               quality={100}
-              className="mx-auto lg:mr-[100px] z-30 relative lg:w-[50%] w-[90%] bounce"
+              className="mx-auto lg:mr-[100px] z-30 relative lg:w-[50%] w-64 -mr-5 bounce"
             />
             <Image
               src={messageLine}
