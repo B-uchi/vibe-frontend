@@ -8,7 +8,7 @@ const Contact = () => {
             <h1 className="text-4xl font-bold">
               Contact Us
             </h1>
-            <p>Send a mail to the team. We'll get back soon...</p>{" "}
+            <p>Send a mail to the team. We&apos;ll get back soon...</p>{" "}
           </div>
           <form className="w-full mx-auto max-w-lg bg-gray-100 p-6 rounded-lg shadow-lg">
             <div className="mb-4">
