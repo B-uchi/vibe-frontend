@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
-  const [showSideMennu, setSHowSideMenu] = useState(true);
+  const [showSideMennu, setSHowSideMenu] = useState(false);
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
