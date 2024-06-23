@@ -1,10 +1,13 @@
 import React from "react";
+import BouncingText from "./BouncingText";
 
 const CallToAction = () => {
   return (
     <div className="h-[100vh] bg-gray-100">
-      <div className="h-[50%] w-full">g</div>
-      <div className="h-[50%] bg-white border-t-[2px] border-[#e1e1e1]"></div>
+      <div className="h-[50%] w-full"></div>
+      <div className="h-[50%] bg-white border-t-[2px] border-[#e1e1e1] flex justify-center items-center">
+        <BouncingText/>
+      </div>
       {/* <section id="contact" className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-bold mb-4">Contact Us</h2>
