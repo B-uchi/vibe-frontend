@@ -10,12 +10,12 @@ const IntegrationSection = () => {
             Integrate Effortlessly with Your Digital Life.{" "}
           </h1>
           <p className="font-poppins mt-5 leading-[30px]">
-            Vibe isn't just a chat app; it's a versatile tool that fits
+            Vibe isn&apos;t just a chat app; it&apos;s a versatile tool that fits
             seamlessly into your digital lifestyle. With easy integration with
             popular services like Google Drive, Dropbox, and social media
             platforms, you can share files, photos, and links without missing a
             beat. Our app is designed to be intuitive and user-friendly, making
-            it simple to connect with others and share content. Whether you're
+            it simple to connect with others and share content. Whether you&apos;re
             using Vibe for personal chats or professional collaboration, our
             integrations help you stay productive and connected.
           </p>

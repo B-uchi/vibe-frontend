@@ -56,7 +56,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="border-b-[1px] border-b-[#313131] py-3">
-                <Link href="/#features" onClick={()=>{setSHowSideMenu(false)}}>
+                <Link href="/#why-vibe" onClick={()=>{setSHowSideMenu(false)}}>
                   <MenuItem text="About" bold={true}/>
                 </Link>
               </li>
@@ -89,7 +89,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/#features">
+                <Link href="/#why-vibe">
                   <MenuItem text="About" />
                 </Link>
               </li>

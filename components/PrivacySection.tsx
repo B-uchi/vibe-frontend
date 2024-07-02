@@ -10,11 +10,11 @@ const PrivacySection = () => {
             Your Privacy, Our Priority{" "}
           </h1>
           <p className="font-poppins mt-5 leading-[30px]">
-            At Vibe, we understand that privacy is crucial. That's why we've
+            At Vibe, we understand that privacy is crucial. That&apos;s why we&apos;ve
             implemented end-to-end encryption to ensure that your messages are
             secure and only accessible to you and the recipient. Our robust
             security protocols protect your data from unauthorized access,
-            giving you peace of mind as you chat. Whether you're sharing
+            giving you peace of mind as you chat. Whether you&apos;re sharing
             personal stories or sensitive information, Vibe is committed to
             keeping your conversations private and secure.
           </p>
