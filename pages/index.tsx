@@ -8,6 +8,7 @@ import Head from "next/head";
 import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
 import Contact from "@/components/Contact";
+import SeamlessConversationSection from "@/components/SeamlessConversationSection";
 
 export const metadata: Metadata = {
   title: "Acme Dashboard",
@@ -87,7 +88,7 @@ export default function Home() {
       </Head>
       <Navbar />
       <HeroSection />
-      <CallToAction />
+      <SeamlessConversationSection/>
       <FAQ />
       <Contact />
       <Footer />
