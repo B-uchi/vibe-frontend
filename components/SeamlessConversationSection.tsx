@@ -1,32 +1,34 @@
 import Image from "next/image";
-import sectionImage from "../public/sectionImage1.png";
+import sectionImage from "../public/sectionImage.jpg";
+import { PiCaretRightLight } from "react-icons/pi";
 
 const SeamlessConversationSection = () => {
   return (
-    <section className="h-[100vh]" id="why-vibe">
-      <div className="container mx-auto flex lg:flex-row text-center lg:text-left flex-col-reverse justify-center items-center h-full">
-        <div className="lg:w-1/2 lg:pl-14 p-5">
-          <h1 className="font-poppins font-bold lg:text-5xl text-2xl">
+    <section className="h-[100vh] overflow-hidden" id="why-vibe">
+      <div className=" mx-auto flex lg:flex-row text-center lg:text-left flex-col-reverse justify-center items-center h-full">
+        <div className="lg:w-1/2 lg:p-28 p-5">
+          <h1 className="font-poppins font-bold italic lg:text-5xl text-2xl">
             Seamless Conversations Anytime, Anywhere.
           </h1>
           <p className="font-poppins mt-5 leading-[30px]">
             Vibe is designed to make your conversations flow effortlessly.
             Whether you&apos;re catching up with friends, collaborating with
             colleagues, or meeting new people, Vibe provides a smooth and
-            intuitive chat experience. Our real-time messaging ensures that your
-            chats are always in sync, and with features like read receipts,
-            typing indicators, and rich media sharing, you can communicate
-            effectively and efficiently. Start a chat, catch a vibe, and keep
-            the conversation going no matter where you are.
+            intuitive chat experience.
           </p>
+          <div className="mt-10">
+            <button className="bg-[#313131] p-2 px-4 flex items-center gap-1 rounded-md text-white font-bold">
+              <PiCaretRightLight size={20}/>
+              Learn More
+            </button>
+          </div>
         </div>
-        <div className="lg:w-1/2">
+        <div className="lg:w-1/2 flex justify-end">
           <Image
             src={sectionImage}
             alt="Message Line"
-            objectFit="cover"
             quality={100}
-            className="mx-auto lg:w-[75%]"
+            className="w-[80%] h-[100%]"
           />
         </div>
       </div>
