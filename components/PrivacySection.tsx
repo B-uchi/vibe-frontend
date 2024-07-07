@@ -4,7 +4,7 @@ import { PiCaretRightLight } from "react-icons/pi";
 
 const PrivacySection = () => {
   return (
-    <section className="h-[100vh] bg-gray-100 border-t-[1px] border-t-[#e1e1e1]">
+    <section className="lg:h-[100vh] bg-gray-100 border-t-[1px] border-t-[#e1e1e1]">
       <div className="container mx-auto flex lg:flex-row-reverse flex-col-reverse justify-center items-center h-full lg:text-left text-center">
         <div className="lg:w-1/2 lg:p-28 p-5">
           <h1 className="font-poppins font-bold italic lg:text-5xl text-2xl">
@@ -17,19 +17,19 @@ const PrivacySection = () => {
             keeping your conversations private and secure.
           </p>
           <div className="mt-10">
-            <button className="bg-[#313131] p-2 px-4 flex items-center gap-1 rounded-md text-white font-bold">
+            <button className="bg-[#313131] p-2 px-4 lg:mx-0 mx-auto flex items-center gap-1 rounded-md text-white font-bold">
               <PiCaretRightLight size={20}/>
               Learn More
             </button>
           </div>
         </div>
-        <div className="lg:w-1/2">
+        <div className="lg:w-1/2 p-2 lg:p-0">
           <Image
             src={sectionImage}
             alt="Message Line"
             objectFit="cover"
             quality={100}
-            className="mx-auto lg:w-[75%] rounded-md"
+            className="mx-auto mt-5 lg:mt-0 lg:w-[75%] rounded-md"
           />
         </div>
       </div>

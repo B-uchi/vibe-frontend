@@ -19,17 +19,17 @@ const IntegrationSection = () => {
             beat.
           </p>
           <div className="mt-10">
-            <button className="bg-[#313131] p-2 px-4 flex items-center gap-1 rounded-md text-white font-bold">
+            <button className="bg-[#313131] p-2 lg:mx-0 mx-auto px-4 flex items-center gap-1 rounded-md text-white font-bold">
               <PiCaretRightLight size={20}/>
               Learn More
             </button>
           </div>
         </div>
-        <div className="lg:w-1/2 flex justify-end">
+        <div className="lg:w-1/2 lg:mt-0 mt-5 flex lg:justify-end justify-center">
           <Image
             src={sectionImage}
             alt="Message Line"
-            className="w-[80%] h-[100%]"
+            className="w-[80%] h-[100%] rounded-md lg:rounded-none"
           />
         </div>
       </div>
