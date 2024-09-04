@@ -51,18 +51,33 @@ const Navbar = () => {
           <div className="">
             <ul className="flex flex-col">
               <li className="border-b-[1px] border-b-[#313131] py-3">
-                <Link href="/#home" onClick={()=>{setSHowSideMenu(false)}}>
-                  <MenuItem text="Home" bold={true}/>
+                <Link
+                  href="/#home"
+                  onClick={() => {
+                    setSHowSideMenu(false);
+                  }}
+                >
+                  <MenuItem text="Home" bold={true} />
                 </Link>
               </li>
               <li className="border-b-[1px] border-b-[#313131] py-3">
-                <Link href="/#why-vibe" onClick={()=>{setSHowSideMenu(false)}}>
-                  <MenuItem text="About" bold={true}/>
+                <Link
+                  href="/#why-vibe"
+                  onClick={() => {
+                    setSHowSideMenu(false);
+                  }}
+                >
+                  <MenuItem text="About" bold={true} />
                 </Link>
               </li>
               <li className="py-3">
-                <Link href="/#contact" onClick={()=>{setSHowSideMenu(false)}}>
-                  <MenuItem text="Contact" bold={true}/>
+                <Link
+                  href="/#contact"
+                  onClick={() => {
+                    setSHowSideMenu(false);
+                  }}
+                >
+                  <MenuItem text="Contact" bold={true} />
                 </Link>
               </li>
             </ul>
@@ -101,9 +116,11 @@ const Navbar = () => {
             </ul>
           </div>
           <div className="">
-            <button className="bg-white text-black lg:px-4 lg:py-2 text-sm lg:text-[16px] px-2 py-2 rounded-lg font-poppins">
-              Join Now
-            </button>
+            <Link href={"https://vibe-chat-react.vercel.app/sign-in"}>
+              <button className="bg-white text-black lg:px-4 lg:py-2 text-sm lg:text-[16px] px-2 py-2 rounded-lg font-poppins">
+                Join Now
+              </button>
+            </Link>
           </div>
         </div>
       </div>

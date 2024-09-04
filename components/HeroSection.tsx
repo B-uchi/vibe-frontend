@@ -1,15 +1,11 @@
-
 import phoneMessage from "../public/phone-message.png";
 import messageLine from "../public/message-line.png";
 import Image from "next/image";
-
-
+import Link from "next/link";
 
 const HeroSection = () => {
-
   return (
     <section id="home" className="relative w-full h-screen overflow-hidden">
-      
       <div className="h-[100vh] w-full relative text-white flex justify-center items-center">
         <div className="dotted-overlay"></div>
         <div className="absolute flex lg:flex-row flex-col-reverse items-center w-full justify-center lg:p-10 mt-10">
@@ -19,15 +15,18 @@ const HeroSection = () => {
             </h1>
             <p className="mt-4 font-poppins text-center lg:text-left">
               Discover new connections, share your passions, and immerse
-              yourself in engaging conversations. Whether you&apos;re looking to make
-              new friends, find like-minded individuals, or just have a good
-              time, Vibe is the place where your conversations come to life.
-              Join us and experience the joy of genuine, vibrant interactions.
+              yourself in engaging conversations. Whether you&apos;re looking to
+              make new friends, find like-minded individuals, or just have a
+              good time, Vibe is the place where your conversations come to
+              life. Join us and experience the joy of genuine, vibrant
+              interactions.
             </p>
             <div className="mt-5 lg:block flex">
-              <button className="w-[50%] mx-auto lg:w-full font-bold font-poppins py-3 px-3 bg-white rounded-md text-gray-800 ">
-                Get Started
-              </button>
+              <Link href={"https://vibe-chat-react.vercel.app/sign-in"}>
+                <button className="w-[50%] mx-auto lg:w-full font-bold font-poppins py-3 px-3 bg-white rounded-md text-gray-800 ">
+                  Get Started
+                </button>
+              </Link>
             </div>
           </div>
           <div className="lg:w-1/2 relative lg:mb-0 mb-5 ">
