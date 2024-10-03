@@ -65,7 +65,7 @@ export default function Home() {
 
   return (
     <main className="relative">
-      {/* <div
+      <div
         ref={animationLayerRef}
         className="absolute inset-0 flex items-start justify-center bg-[#313131] z-50"
       >
@@ -82,7 +82,7 @@ export default function Home() {
             </div>
           ))}
         </div>
-      </div> */}
+      </div>
       <Head>
         <title>Vibe - Start a Chat, Catch a Vibe</title>
         <meta name="description" content="Vibe - Start a Chat, Catch a Vibe" />
