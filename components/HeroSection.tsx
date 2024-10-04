@@ -23,7 +23,7 @@ const HeroSection = () => {
             </p>
             <div className="mt-5 lg:block flex">
               <Link href={"https://vibe-chat-react.vercel.app/sign-in"}>
-                <button className="w-[50%] mx-auto lg:w-full font-bold font-poppins py-3 px-3 bg-white rounded-md text-gray-800 ">
+                <button className="w-[50%] mx-auto w-full font-bold font-poppins py-3 px-3 bg-white rounded-md text-gray-800 ">
                   Get Started
                 </button>
               </Link>
