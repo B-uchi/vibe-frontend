@@ -21,7 +21,7 @@ const HeroSection = () => {
               life. Join us and experience the joy of genuine, vibrant
               interactions.
             </p>
-            <div className="mt-5 lg:block flex">
+            <div className="mt-5 lg:block">
               <Link href={"https://vibe-chat-react.vercel.app/sign-in"}>
                 <button className="w-[50%] mx-auto w-full font-bold font-poppins py-3 px-3 bg-white rounded-md text-gray-800 ">
                   Get Started
