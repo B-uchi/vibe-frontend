@@ -5,7 +5,7 @@ const FAQ = () => {
     {
       question: "What is Vibe?",
       answer:
-        "Vibe is a social networking app designed to help you start a chat and catch a vibe with new people. It's a platform where you can connect, communicate, and build relationships based on shared interests and vibes.",
+        "Vibe is a social networking app designed to help you start a chat and catch a vibe with new people. It&apos;s a platform where you can connect, communicate, and build relationships based on shared interests and vibes.",
     },
     {
       question: "How do I get started with Vibe?", 
@@ -40,7 +40,7 @@ const FAQ = () => {
             Frequently Asked Questions
           </h2>
           <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-            Find answers to common questions about Vibe. Can't find what you're looking for? 
+            Find answers to common questions about Vibe. Can&apos;t find what you&apos;re looking for? 
             Feel free to reach out to our support team.
           </p>
         </div>

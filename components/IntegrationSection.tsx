@@ -22,9 +22,8 @@ const IntegrationSection = () => {
                 Digital World
               </h2>
             </div>
-
             <p className="font-poppins text-gray-600 text-lg leading-relaxed">
-              Vibe isn't just a chat app; it's a versatile tool that fits seamlessly into your digital lifestyle. 
+              Vibe isn&apos;t just a chat app; it&apos;s a versatile tool that fits seamlessly into your digital lifestyle. 
               With easy integration with popular services like Google Drive, Dropbox, and social media platforms, 
               you can share files, photos, and links without missing a beat.
             </p>
