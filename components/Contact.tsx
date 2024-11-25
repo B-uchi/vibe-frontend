@@ -2,7 +2,7 @@ const Contact = () => {
   return (
     <section id="contact" className="font-poppins py-24 bg-gradient-to-br from-white to-gray-50">
       <div className="container mx-auto px-4">
-        <div className="flex lg:flex-row flex-col justify-evenly items-center px-[90px]">
+        <div className="flex lg:flex-row flex-col justify-evenly items-center lg:px-[90px]">
           <div className="lg:w-1/2 space-y-6">
             <div>
               <span className="inline-block px-4 py-1 bg-gray-100 backdrop-blur-sm rounded-full text-sm font-medium text-[#313131]">
@@ -38,7 +38,7 @@ const Contact = () => {
             </div>
           </div>
 
-          <form className="lg:w-1/2 w-full max-w-lg bg-white p-8 rounded-2xl shadow-xl space-y-6">
+          <form className="lg:w-1/2 w-full max-w-lg bg-white p-8 rounded-2xl shadow-xl space-y-6 mt-10 lg:mt-0">
             <div className="grid grid-cols-2 gap-6">
               <div className="col-span-2 sm:col-span-1">
                 <label className="block text-sm font-medium text-gray-700 mb-2" htmlFor="name">
