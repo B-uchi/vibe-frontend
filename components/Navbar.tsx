@@ -44,7 +44,7 @@ const Navbar = () => {
       />
 
       <div
-        className={`fixed top-0 left-0 h-full w-[280px] bg-white shadow-2xl transform transition-transform duration-300 ease-in-out md:hidden ${
+        className={`fixed top-0 left-0 h-screen w-[280px] bg-white shadow-2xl transform transition-transform duration-300 ease-in-out md:hidden ${
           showSideMenu ? "translate-x-0" : "-translate-x-full"
         }`}
       >
@@ -94,11 +94,7 @@ const Navbar = () => {
               className="p-2 -ml-2 hover:bg-gray-100 rounded-full transition-colors md:hidden"
               onClick={toggleSideMenu}
             >
-              <IoMdMenu
-                className={`w-6 h-6 ${
-                  isScrolled ? "text-gray-700" : "text-white"
-                }`}
-              />
+              <IoMdMenu className="w-6 h-6 text-white" />
             </button>
 
             <Link href="/" className="flex items-center gap-2">

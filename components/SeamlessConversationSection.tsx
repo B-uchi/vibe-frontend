@@ -4,7 +4,7 @@ import { PiCaretRightLight } from "react-icons/pi";
 
 const SeamlessConversationSection = () => {
   return (
-    <section className="min-h-screen bg-white py-20 max-w-screen" id="why-vibe">
+    <section className="min-h-screen bg-white py-20 max-w-screen" id="about">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="relative">
           {/* Background decorative elements */}
