@@ -1,7 +1,5 @@
-import CallToAction from "@/components/CallToAction";
 import HeroSection from "@/components/HeroSection";
 import Navbar from "@/components/Navbar";
-import { Metadata } from "next";
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import Head from "next/head";
@@ -12,11 +10,6 @@ import SeamlessConversationSection from "@/components/SeamlessConversationSectio
 import PrivacySection from "@/components/PrivacySection";
 import IntegrationSection from "@/components/IntegrationSection";
 
-export const metadata: Metadata = {
-  title: "Acme Dashboard",
-  description: "The official Next.js Course Dashboard, built with App Router.",
-  metadataBase: new URL("https://next-learn-dashboard.vercel.sh"),
-};
 
 export default function Home() {
   const animationLayerRef = useRef<HTMLDivElement>(null);
