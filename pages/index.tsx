@@ -64,7 +64,7 @@ export default function Home() {
   }, []);
 
   return (
-    <main className="relative overflow-x-hidden">
+    <main className="relative overflow-x-hidden 63422ed9-6a46-4854-80a3-f26f1ac469fc">
       {/* <div
         ref={animationLayerRef}
         className="absolute inset-0 flex items-start justify-center bg-[#313131] z-50"
